@@ -1,0 +1,28 @@
+.red {
+    /* key : value */
+    color: red;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.blue {
+    color: blue;
+}
+
+.red-box {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    /* display: inline-block; */
+}
+
+.green-box {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    display: inline-block;
+}
