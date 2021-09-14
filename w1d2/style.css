@@ -12,10 +12,14 @@
 }
 
 .red-box {
-    margin: 20px;
-    height: 300px;
-    width: 300px;
+    margin: 100px;
+    /* padding: 20px; */
+    height: 30px;
+    width: 30px;
     background-color: red;
+    border: 100px solid black;
+    border-top: 100px solid grey;
+    border-left: 100px solid grey;
     /* display: inline-block; */
 }
 
@@ -25,4 +29,25 @@
     width: 300px;
     background-color: green;
     display: inline-block;
+}
+
+.main {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    text-align: center;
+}
+
+.yellow-box {
+    width: 25%;
+    height: 50%;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header {
+    margin-top: 60%;
+    background-color: red;
+    height: 20%;
 }
