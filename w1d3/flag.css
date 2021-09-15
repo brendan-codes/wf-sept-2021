@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+}
+
+html {
+    background-color: black;
+}
+
+.section {
+    width: 0px;
+    border: 50px solid #ED1C24;
+    border-left: 120px solid #FFFFFF;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.white {
+    width: 250px;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.red {
+    width: 500px;
+    height: 500px;
+    background-color: #ED1C24;
+}
