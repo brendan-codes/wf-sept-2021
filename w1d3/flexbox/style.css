@@ -1,0 +1,22 @@
+.flex{
+    align-items:center;
+    height: 900px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child{
+    background-color: orange;
+}
+
+.flex-child {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
