@@ -1,0 +1,81 @@
+/* body {
+    padding-left: 5%;
+    padding-right: 5%;
+} */
+.header {
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header div p:nth-child(3) {
+    font-weight: bold;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.fifty {
+    width: 50%;
+}
+
+.signout {
+    background-color: #16A2B8;
+    padding: 10px;
+    border: 0px;
+    color: white;
+}
+
+.main {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 600px;
+    /* background-color: orange; */
+    justify-content: center;
+}
+
+.col-1 {
+    flex: 1;
+    /* padding-top: 20px; */
+    /* background-color: purple; */
+    height: 100%;
+    margin-left: 10px;
+}
+
+.col-2 {
+    flex: 2;
+    /* background-color: green; */
+    height: 100%;
+    margin-right: 10px;
+}
+
+.card {
+    /* background-color: white; */
+    /* padding: 10px; */
+    border: 3px solid #16A2B8;
+    margin-top: 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-head {
+    background-color: #16A2B8;
+    height: 100px;
+}
+
+.profile-pic {
+    margin-top: -70px;
+}
+
+img{
+    border-radius: 50%;
+}
