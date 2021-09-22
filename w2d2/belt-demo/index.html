@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header row justify-between">
+            <div class="title row">
+                <h1>Just<span>Dessert</span></h1>
+            </div>
+            <div class="join row justify-end">
+                <button class="join-btn" onclick="hideJoin(this)">Join</button>
+                <button class="login-btn">Login</button>
+            </div>
+        </div>
+        <div class="search row justify-between">
+            <div class="row search-bar">
+                <input id="search" type="text">
+                <button onclick="search()">Go</button>
+            </div>
+            <div class="img-link">
+                <img src="http://placekitten.com/1080/720" alt="">
+                <p>This is subtext</p>
+            </div>
+            <div class="img-link">
+                <img src="http://placekitten.com/1080/720" alt="">
+                <p>This is subtext</p>
+            </div>
+            <div class="img-link">
+                <img src="http://placekitten.com/1080/720" alt="">
+                <p>This is subtext</p>
+            </div>
+            <div class="img-link">
+                <img src="http://placekitten.com/1080/720" alt="">
+                <p>This is subtext</p>
+            </div>
+        </div>
+        <div class="content row">
+            <div class="col-3">
+                <h1 class="rotd">Recipe of the Day</h1>
+                <img class="recipe-img" src="http://placekitten.com/1920/1080" alt="">
+                <div class="recipe row">
+                    <p class="recipe-name">Orange Tart Jelly</p>
+                    <div class="row justify-end w100">
+                        <img onclick="count('#counter1')" class="like-img" src="http://placekitten.com/100/100" alt="">
+                        <p id="counter1">88</p>
+                    </div>
+                </div>
+                <p>By: <a href="">Brendan</a></p>
+                <a href="" class="more-recipes">More Recipes!</a>
+            </div>
+            <div class="col-2">
+                <h3>Recommended</h3>
+                <div>
+                    <img class="recipe-img" src="http://placekitten.com/1920/1080" alt="">
+                    <div class="recipe row">
+                        <p class="recipe-name">Orange Tart Jelly</p>
+                        <div class="row justify-end w100">
+                            <img onclick="count('#counter2')" class="like-img" src="http://placekitten.com/100/100" alt="">
+                            <p id="counter2">55</p>
+                        </div>
+                    </div>
+                    <p>By: <a href="">Brendan</a></p>
+                </div>
+                <div>
+                    <img class="recipe-img" src="http://placekitten.com/1920/1080" alt="">
+                    <div class="recipe row">
+                        <p class="recipe-name">Orange Tart Jelly</p>
+                        <div class="row justify-end w100">
+                            <img onclick="count('#counter3')" class="like-img" src="http://placekitten.com/100/100" alt="">
+                            <p id="counter3">22</p>
+                        </div>
+                    </div>
+                    <p>By: <a href="">Brendan</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
